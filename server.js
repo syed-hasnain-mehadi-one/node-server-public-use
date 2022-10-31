@@ -32,7 +32,7 @@ app.set("trust proxy", true);
 
 //status api
 app.get("/", (req, res) =>
-  res.status(200).send("<h2>Server is running...</h2>")
+  res.status(200).send(`<h1>Server is up and running</h1>`)
 );
 
 //routes
